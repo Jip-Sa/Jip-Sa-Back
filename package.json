@@ -1,0 +1,20 @@
+{
+  "name": "jip-sa-back",
+  "version": "1.0.0",
+  "description": "Jipsa with Jipsa",
+  "main": "jipsa.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "moment-timezone": "0.5.43",
+    "express": "4.18.2",
+    "body-parser": "1.20.2",
+    "cors": "2.8.5",
+    "mysql2": "3.5.2"
+  }
+}
