@@ -9,6 +9,7 @@ import cors from 'cors';
 import config from './config/config.js';
 import { ping } from './controller/system.js';
 import { consoleBar, timeLog } from './lib/common.js';
+import { getTradingFromOpenApi } from './controller/calculation/trade.js';
 
 // ------------------ router set -----------------
 
@@ -22,6 +23,8 @@ const router = express.Router();
 // -------------------- api --------------------
 
 router.route('/ping').get(ping);
+getTradingFromOpenApi(11110, 202210);
+
 
 // ---------------- server start -----------------
 
