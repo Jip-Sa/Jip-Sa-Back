@@ -12,6 +12,7 @@ import { consoleBar, timeLog } from './lib/common.js';
 import { getTradingFromOpenApi } from './controller/calculation/trade.js';
 import { getRentFromOpenApi } from './controller/calculation/rent.js';
 import { rentMacro, tradeMacro } from './controller/macro.js';
+import { getRentInfo, getTradeInfo } from './lib/db.js';
 
 // ------------------ router set -----------------
 
@@ -25,7 +26,13 @@ const router = express.Router();
 // -------------------- api --------------------
 
 router.route('/ping').get(ping);
-rentMacro();
+router.route('/tradeInfo').get(getTradeInfo);
+router.route('/rentInfo').get(getRentInfo);
+
+
+// -------------------- Macro --------------------
+
+//rentMacro();
 //tradeMacro();
 
 // ---------------- server start -----------------
