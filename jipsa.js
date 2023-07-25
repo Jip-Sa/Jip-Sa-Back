@@ -12,7 +12,7 @@ import { consoleBar, timeLog } from './lib/common.js';
 import { getTradingFromOpenApi } from './controller/calculation/trade.js';
 import { getRentFromOpenApi } from './controller/calculation/rent.js';
 import { rentMacro, tradeMacro } from './controller/macro.js';
-import { getLeastRentByDong, getLeastTrade, getLeastTradeByDong, getRentInfo, getRentInfoByDong, getTradeInfo, getTradeInfoByDong } from './lib/db.js';
+import { getLeastRent, getLeastRentByDong, getLeastTrade, getLeastTradeByDong, getRentInfo, getRentInfoByDong, getTradeInfo, getTradeInfoByDong } from './lib/db.js';
 
 // ------------------ router set -----------------
 
@@ -33,6 +33,7 @@ router.route('/rentInfo-dong').get(getRentInfoByDong);
 router.route('/leastTrade-dong').get(getLeastTradeByDong);
 router.route('/leastRent-dong').get(getLeastRentByDong);
 router.route('/leastTrade').get(getLeastTrade);
+router.route('/leastRent').get(getLeastRent);
 
 
 // -------------------- Macro --------------------
