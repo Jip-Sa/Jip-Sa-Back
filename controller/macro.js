@@ -5,7 +5,7 @@ import yearCode from "../config/yearCode.js";
 import { getTradingFromOpenApi } from "./calculation/trade.js";
 import { getRentFromOpenApi } from "./calculation/rent.js";
 
-// -------- Trade 3 year Macro At Seoul ----------
+// -------- Trade 4 year Macro At Seoul ----------
 
 const tradeMacro = async () => {
     for (let i = 0; i < seoulLocationCode.SEOUL.GU.length; i++) {
@@ -23,7 +23,7 @@ const tradeMacro = async () => {
     }
 };
 
-// -------- Rent 3 year Macro At Seoul ----------
+// -------- Rent 4 year Macro At Seoul ----------
 
 const rentMacro = async () => {
     for (let i = 0; i < seoulLocationCode.SEOUL.GU.length; i++) {

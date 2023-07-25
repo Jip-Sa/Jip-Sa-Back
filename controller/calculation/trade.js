@@ -8,7 +8,7 @@ import { writeDbTradeInfo } from '../../lib/tradedb.js';
 
 const getTradingFromOpenApi = async (locationCode, yearMonth) => {
     const tradeUrl = process.env.TRADE_ENDPOINT;
-    const serviceKey = process.env.SERVICE_KEY2;
+    const serviceKey = process.env.SERVICE_KEY1;
 
     const url = tradeUrl + '?serviceKey=' + serviceKey + '&LAWD_CD=' + locationCode + '&DEAL_YMD=' + yearMonth;
 

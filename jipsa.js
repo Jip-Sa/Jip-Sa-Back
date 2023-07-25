@@ -35,7 +35,7 @@ router.route('/rentInfo-dong').get(getRentInfoByDong);
 // -------------------- Macro --------------------
 
 //rentMacro();
-//tradeMacro();
+tradeMacro();
 
 // ---------------- server start -----------------
 
