@@ -9,9 +9,7 @@ import cors from 'cors';
 import config from './config/config.js';
 import { ping } from './controller/system.js';
 import { consoleBar, timeLog } from './lib/common.js';
-import { getTradingFromOpenApi } from './controller/calculation/trade.js';
-import { getRentFromOpenApi } from './controller/calculation/rent.js';
-import { rentMacro, tradeMacro } from './controller/macro.js';
+import { levelMacro, rentMacro, tradeMacro } from './controller/macro.js';
 import { getLeastRent, getLeastRentByDong, getLeastRentByGu, getLeastTrade, getLeastTradeByDong, getLeastTradeByGu, getRentInfo, getRentInfoByDong, getTradeInfo, getTradeInfoByDong } from './lib/db.js';
 import { getRentSizeInfo, getTradeSizeInfo } from './lib/size.js';
 
@@ -42,8 +40,9 @@ router.route('/sizeRent').get(getRentSizeInfo);
 
 // -------------------- Macro --------------------
 
-//rentMacro();
-//tradeMacro();
+// rentMacro();
+// tradeMacro();
+// levelMacro();
 
 // ---------------- server start -----------------
 

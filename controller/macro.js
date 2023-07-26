@@ -4,6 +4,7 @@ import seoulLocationCode from "../config/seoulLocationCode.js";
 import yearCode from "../config/yearCode.js";
 import { getTradingFromOpenApi } from "./calculation/trade.js";
 import { getRentFromOpenApi } from "./calculation/rent.js";
+import { calculateLevel, createLevelInfo } from "./calculation/level.js";
 
 // -------- Trade 4 year Macro At Seoul ----------
 
@@ -41,4 +42,11 @@ const rentMacro = async () => {
     }
 };
 
-export { tradeMacro, rentMacro };
+const levelMacro = async () => {
+    createLevelInfo();
+    console.log("[LEVEL][MACRO] create");
+    calculateLevel();
+    console.log("[LEVEL][MACRO] calculate");
+};
+
+export { tradeMacro, rentMacro, levelMacro };
