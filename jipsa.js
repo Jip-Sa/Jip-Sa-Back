@@ -10,8 +10,9 @@ import config from './config/config.js';
 import { ping } from './controller/system.js';
 import { consoleBar, timeLog } from './lib/common.js';
 import { levelMacro, rentMacro, tradeMacro } from './controller/macro.js';
-import { getLeastRent, getLeastRentByDong, getLeastRentByGu, getLeastTrade, getLeastTradeByDong, getLeastTradeByGu, getRentInfo, getRentInfoByDong, getTradeInfo, getTradeInfoByDong } from './lib/db.js';
+import { getRentInfo, getRentInfoByDong, getTradeInfo, getTradeInfoByDong } from './lib/db.js';
 import { getRentSizeInfo, getTradeSizeInfo } from './lib/size.js';
+import { getLeastRent, getLeastRentByDong, getLeastRentByGu, getLeastTrade, getLeastTradeByDong, getLeastTradeByGu } from './lib/leastDb.js';
 
 // ------------------ router set -----------------
 
