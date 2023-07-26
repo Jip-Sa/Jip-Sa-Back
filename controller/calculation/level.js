@@ -26,7 +26,7 @@ const createLevelInfo = async () => {
         results.result = false;
         results.error.push('DB Error');
     }
-    res.send(results);
+
     consoleBar();
     timeLog('[INSERT DB][level] // ' + JSON.stringify(req.query) + ' // ' + JSON.stringify(results));
 
@@ -52,7 +52,7 @@ const calculateLevel = async () => {
         results.result = false;
         results.error.push('DB Error');
     }
-    res.send(results);
+
     consoleBar();
     timeLog('[UPDATE DB][level] // ' + JSON.stringify(req.query) + ' // ' + JSON.stringify(results));
 };
