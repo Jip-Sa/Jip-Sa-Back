@@ -13,6 +13,7 @@ import { getTradingFromOpenApi } from './controller/calculation/trade.js';
 import { getRentFromOpenApi } from './controller/calculation/rent.js';
 import { rentMacro, tradeMacro } from './controller/macro.js';
 import { getLeastRent, getLeastRentByDong, getLeastRentByGu, getLeastTrade, getLeastTradeByDong, getLeastTradeByGu, getRentInfo, getRentInfoByDong, getTradeInfo, getTradeInfoByDong } from './lib/db.js';
+import { getRentSizeInfo, getTradeSizeInfo } from './lib/size.js';
 
 // ------------------ router set -----------------
 
@@ -36,6 +37,8 @@ router.route('/leastTrade').get(getLeastTrade);
 router.route('/leastRent').get(getLeastRent);
 router.route('/leastTrade-gu').get(getLeastTradeByGu);
 router.route('/leastRent-gu').get(getLeastRentByGu);
+router.route('/sizeTrade').get(getTradeSizeInfo);
+router.route('/sizeRent').get(getRentSizeInfo);
 
 // -------------------- Macro --------------------
 
