@@ -5,6 +5,7 @@ dotenv.config();
 import axios from 'axios';
 import { consoleBar, timeLog } from '../../lib/common.js';
 import { writeDbRentInfo } from '../../lib/rentdb.js';
+import { pool } from './connect.js';
 
 const createLevelInfo = async () => {
     const query = 'INSERT INTO levelInfo (name, gu, dong, jibun, size, tradePrice, rentPrice, persent) SELECT r.name, r.gu, r.dong, r.jibun, r.size, t.tradePrice, r.rentPrice, (r.rentPrice/t.tradePrice * 100) AS percent FROM rentInfo AS r JOIN tradeInfo AS t ON r.gu = t.gu AND r.dong = t.dong AND r.jibun = t.jibun AND r.size = t.size;';
