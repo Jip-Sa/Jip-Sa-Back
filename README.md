@@ -22,13 +22,13 @@
 > 해당 오피스텔의 전세가율을 한눈에 확인할 수 있습니다. 주의 단계 이상의 물건을 조심해야 합니다!
 > 전세가율은 가장 최근 매매 거래와 가장 최근 전세거래를 기반으로 계산했습니다.
 
+<img width="1680" alt="스크린샷 2023-07-27 오후 5 46 38(2)" src="https://github.com/Jip-Sa/Jip-Sa-Back/assets/43375122/5bb951f9-a6fd-4ed7-ac34-18e44efee6a9">
 ![스크린샷 2023-07-27 오후 5 29 41](https://github.com/Jip-Sa/Jip-Sa-Back/assets/43375122/83c99001-c0fb-4c8a-8ad5-18d945ad61ca)
 
 ### 최근 4개년 전세 / 매매 거래 확인하기
 > 해당 오피스텔의 최근 4개년 전세 / 매매 거래를 확인할 수 있습니다.
 > 저희는 서울 권역의 오피스텔 매매거래 6만여개, 전세거래 11만여개를 분석했습니다.
 
-<img width="1680" alt="스크린샷 2023-07-27 오후 5 46 38(2)" src="https://github.com/Jip-Sa/Jip-Sa-Back/assets/43375122/5bb951f9-a6fd-4ed7-ac34-18e44efee6a9">
 <img width="1680" alt="스크린샷 2023-07-27 오후 5 47 14(2)" src="https://github.com/Jip-Sa/Jip-Sa-Back/assets/43375122/f08d798d-661c-4de7-8f9d-3ac903f90c43">
 <img width="1680" alt="스크린샷 2023-07-27 오후 5 47 39(2)" src="https://github.com/Jip-Sa/Jip-Sa-Back/assets/43375122/d63ed922-f355-496f-879c-2805ac8a377a">
 
