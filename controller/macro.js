@@ -43,9 +43,9 @@ const rentMacro = async () => {
 };
 
 const levelMacro = async () => {
-    createLevelInfo();
+    await createLevelInfo();
     console.log("[LEVEL][MACRO] create");
-    calculateLevel();
+    await calculateLevel();
     console.log("[LEVEL][MACRO] calculate");
 };
 

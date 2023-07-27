@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS jipsa.levelInfo (
     size VARCHAR(10),
     tradePrice VARCHAR(10),
     rentPrice VARCHAR(10),
-    persent DECIMAL(10, 2),
+    percent DECIMAL(10, 2),
     level TINYINT(1),
     created DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(),
     updated DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP(),
