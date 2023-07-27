@@ -23,6 +23,7 @@
 > 전세가율은 가장 최근 매매 거래와 가장 최근 전세거래를 기반으로 계산했습니다.
 
 <img width="1680" alt="스크린샷 2023-07-27 오후 5 46 38(2)" src="https://github.com/Jip-Sa/Jip-Sa-Back/assets/43375122/5bb951f9-a6fd-4ed7-ac34-18e44efee6a9">
+
 ![스크린샷 2023-07-27 오후 5 29 41](https://github.com/Jip-Sa/Jip-Sa-Back/assets/43375122/83c99001-c0fb-4c8a-8ad5-18d945ad61ca)
 
 ### 최근 4개년 전세 / 매매 거래 확인하기
