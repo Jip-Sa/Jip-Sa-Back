@@ -31,7 +31,6 @@
 > 저희는 서울 권역의 오피스텔 매매거래 6만여개, 전세거래 11만여개를 분석했습니다.
 
 <img width="1680" alt="스크린샷 2023-07-27 오후 5 47 14(2)" src="https://github.com/Jip-Sa/Jip-Sa-Back/assets/43375122/f08d798d-661c-4de7-8f9d-3ac903f90c43">
-<img width="1680" alt="스크린샷 2023-07-27 오후 5 47 39(2)" src="https://github.com/Jip-Sa/Jip-Sa-Back/assets/43375122/d63ed922-f355-496f-879c-2805ac8a377a">
 
 
 ## 팀원
