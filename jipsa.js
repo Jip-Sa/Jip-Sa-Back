@@ -13,7 +13,7 @@ import { levelMacro, rentMacro, tradeMacro } from './controller/macro.js';
 import { getRentInfo, getRentInfoByDong, getTradeInfo, getTradeInfoByDong } from './lib/db.js';
 import { getRentSizeInfo, getTradeSizeInfo } from './lib/size.js';
 import { getLeastRent, getLeastRentByDong, getLeastRentByGu, getLeastTrade, getLeastTradeByDong, getLeastTradeByGu } from './lib/leastDb.js';
-import { getLevel } from './lib/levelDb.js';
+import { getLevel, getMaxLevel } from './lib/levelDb.js';
 
 // ------------------ router set -----------------
 
@@ -40,6 +40,7 @@ router.route('/leastRent-gu').get(getLeastRentByGu);
 router.route('/sizeTrade').get(getTradeSizeInfo);
 router.route('/sizeRent').get(getRentSizeInfo);
 router.route('/level').get(getLevel);
+router.route('/level-max').get(getMaxLevel);
 
 // -------------------- Macro --------------------
 
